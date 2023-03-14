@@ -8,4 +8,4 @@ function toggleMenu(){
 }
     const x = document.getElementById("hamburguerBtn");
 
-    x.onclick = toggleMenu;
+x.onclick= toggleMenu;
