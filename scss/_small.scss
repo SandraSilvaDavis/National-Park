@@ -30,12 +30,15 @@ div.topbar {
   padding: 1rem 2vw;
  
 }
-
-header {
+div#headerWrapper{
   background-image:url(../images/header-small.jpg);
+  background-repeat:no-repeat;
   height:150px;
-  background-position:right;
-  padding: .5rem 2%;
+}
+header {
+
+ height: 100%;
+  
   color: rgb(248, 244, 244);
   display: flex;
   flex-direction: column;
@@ -43,13 +46,14 @@ header {
  
  
  h1 {
-   
+  padding: 1rem;
     font-size: 1.6rem;
     font-weight: $normalWeight;
     background-color: rgba(0,0,0,0.4);
+margin: 0;
+
    
   
-    
   }
 }
 /*----------Navigation---------*/
@@ -64,6 +68,7 @@ nav {
     border: none;
     font-size: 1.5rem;
     color: rgba(18, 17, 17, 0.9);
+    font-style: normal;
   
   }
   ul {
@@ -117,6 +122,7 @@ $cbr: 20px;
     flex-basis: 100%;
      border: 1px solid #999;
      border-radius:$cbr;
+  
     
      margin: 1rem 1%;
      text-align: center;
@@ -125,7 +131,13 @@ $cbr: 20px;
       padding:1rem 0;
       border-top-left-radius: $cbr - 1;
       border-top-right-radius: $cbr - 1;
+    
+    
+    
+img {
+  width: 20px;
 
+}
 
      }//end of section
 
@@ -133,9 +145,13 @@ $cbr: 20px;
      }
      img {
      
-      position: relative;}
+      position: relative;
+      margin-top: 10%;}
+     
 
-img:hover { animation: bounce 1s 2;}
+img:hover { animation: bounce 1s 2;
+}
+
  
 
 
@@ -156,7 +172,7 @@ img:hover { animation: bounce 1s 2;}
       color: white;
       padding: 1rem 0;
       margin: 1rem 4vw;
-      border-radius: $cbr;
+      border-radius: 20px;
 
      }
      a:hover{background-color:lighten(rgba(221, 98, 50, 0.772), 10%) ;}
