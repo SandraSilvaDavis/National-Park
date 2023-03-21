@@ -67,7 +67,7 @@ nav {
     background:transparent;
     border: none;
     font-size: 1.5rem;
-    color: rgba(18, 17, 17, 0.9);
+    color: rgba(131, 79, 46, 0.686);
     font-style: normal;
   
   }
@@ -87,19 +87,20 @@ nav {
   }
 
   li.active {
-    background-color: #7D029C;
+    background-color: #867c88;
   }
   ul li {
     border-bottom: solid 1px rgba(231, 8, 8, 0.1);
   }
 ul li.active a {
   background-color: darken($menuColor,8%);
+  text-align: left;
 }
   a {
     display: block;
     padding: 0.75rem;
-    color: #E3BCEE;
-    text-align: center;
+    color: #efc6aa;
+   
     text-decoration: none;
 
     ul li a:hover {
@@ -181,7 +182,7 @@ img:hover { animation: bounce 1s 2;
 
 //begin the footer
 #footerWrapper {
-  background-color:#DBD0E8;
+  background-color:#d8d5db;
 }
 
 footer {
